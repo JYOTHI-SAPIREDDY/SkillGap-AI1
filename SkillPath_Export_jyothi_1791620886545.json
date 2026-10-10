@@ -1,0 +1,288 @@
+{
+  "profile": {
+    "id": "demo-student-1",
+    "name": "jyothi",
+    "email": "sapieddyjyothi@gmail.com",
+    "education_level": "Bachelor of Technology",
+    "current_year": "3rd Year",
+    "career_goal": "embedded-systems",
+    "pace_hours_per_day": 1.5,
+    "topics_of_interest": [],
+    "created_at": "2026-10-10T08:05:41.924Z",
+    "updated_at": "2026-10-10T08:27:52.130Z"
+  },
+  "dashboardStats": {
+    "profile": {
+      "id": "demo-student-1",
+      "name": "jyothi",
+      "email": "sapieddyjyothi@gmail.com",
+      "education_level": "Bachelor of Technology",
+      "current_year": "3rd Year",
+      "career_goal": "embedded-systems",
+      "pace_hours_per_day": 1.5,
+      "topics_of_interest": [],
+      "created_at": "2026-10-10T08:05:41.924Z",
+      "updated_at": "2026-10-10T08:27:52.130Z"
+    },
+    "career": {
+      "id": "embedded-systems",
+      "title": "Embedded Systems Engineer",
+      "description": "Develops firmware, real-time operating systems, and hardware-interfaced software for IoT, microcontrollers, and robotics.",
+      "icon": "Cpu",
+      "market_demand": "High",
+      "average_salary": "$90,000 - $140,000 / yr"
+    },
+    "overall_progress_percent": 0,
+    "completed_topics_count": 0,
+    "pending_topics_count": 4,
+    "total_topics_count": 4,
+    "streak_days": 5,
+    "total_quizzes_taken": 1,
+    "average_quiz_score": 100,
+    "recommended_next_topic": {
+      "topic": {
+        "id": "embedded-c-memory",
+        "skill_id": "embedded-c",
+        "title": "Embedded C Memory Management & Pointers",
+        "description": "Pointer arithmetic, volatile keyword, function pointers, bitwise bit masking, and memory-mapped hardware registers.",
+        "difficulty": "Beginner",
+        "estimated_hours": 6,
+        "prerequisites": [],
+        "learning_objectives": [
+          "Directly manipulate peripheral registers using bitwise shift and mask operators",
+          "Understand the critical necessity of volatile variables in interrupt service routines",
+          "Write memory-safe C code avoiding buffer overruns on resource-limited chips"
+        ],
+        "resources": [
+          {
+            "title": "Embedded C Programming Tutorial",
+            "type": "Documentation",
+            "url": "https://embedded.com",
+            "provider": "Embedded.com"
+          },
+          {
+            "title": "Bit Twiddling Hacks by Sean Eron Anderson",
+            "type": "Documentation",
+            "url": "https://graphics.stanford.edu/~seander/bithacks.html",
+            "provider": "Stanford"
+          }
+        ],
+        "practice_task": "Write a circular ring buffer implementation in C for an interrupt-driven UART driver.",
+        "skill_name": "Embedded C / C++"
+      },
+      "status": "not_started",
+      "is_locked": false,
+      "priority": "High",
+      "rationale": "Target role requires Level 5 in Embedded C / C++ (Current: 1). The definitive standard language for resource-constrained hardware firmware.",
+      "sequence_order": 1
+    },
+    "recommendation_rationale": "Recommended because your target role \"Embedded Systems Engineer\" requires Embedded C / C++ at Level 5 (current: 1), and all prerequisite foundational concepts have been satisfied.",
+    "recent_activities": [
+      {
+        "id": "act-1791620872132",
+        "user_id": "demo-student-1",
+        "activity_type": "goal_updated",
+        "title": "Updated Profile Preferences",
+        "details": "Target role updated to: embedded-systems",
+        "timestamp": "2026-10-10T08:27:52.130Z",
+        "duration_minutes": 5
+      },
+      {
+        "id": "act-1791620808080",
+        "user_id": "demo-student-1",
+        "activity_type": "topic_completed",
+        "title": "Completed Topic: Relational Database Design & SQL Basics",
+        "details": "Mastered learning objectives and practice milestones",
+        "timestamp": "2026-10-10T08:26:48.078Z",
+        "duration_minutes": 45
+      },
+      {
+        "id": "act-1791620712812",
+        "user_id": "demo-student-1",
+        "activity_type": "resume_analyzed",
+        "title": "Analyzed Resume: resume (4).pdf",
+        "details": "Detected 4 matching skills (80% role alignment)",
+        "timestamp": "2026-10-10T08:25:12.810Z",
+        "duration_minutes": 10
+      },
+      {
+        "id": "act-1791620668943",
+        "user_id": "demo-student-1",
+        "activity_type": "resume_analyzed",
+        "title": "Analyzed Resume: resume (4).pdf",
+        "details": "Detected 4 matching skills (80% role alignment)",
+        "timestamp": "2026-10-10T08:24:28.940Z",
+        "duration_minutes": 10
+      },
+      {
+        "id": "act-1791619671179",
+        "user_id": "demo-student-1",
+        "activity_type": "resume_analyzed",
+        "title": "Analyzed Resume: software_developer_sample.txt",
+        "details": "Detected 5 matching skills (100% role alignment)",
+        "timestamp": "2026-10-10T08:07:51.176Z",
+        "duration_minutes": 10
+      },
+      {
+        "id": "act-demo-4",
+        "user_id": "demo-student-1",
+        "activity_type": "topic_completed",
+        "title": "Finished Topic: Git Advanced Workflows",
+        "details": "Resolved merge conflicts and interactive rebase",
+        "timestamp": "2026-10-10T08:05:41.953Z",
+        "duration_minutes": 35
+      },
+      {
+        "id": "act-demo-3",
+        "user_id": "demo-student-1",
+        "activity_type": "quiz",
+        "title": "Attempted Adaptive Quiz: Python Basics",
+        "details": "Scored 100% on Medium difficulty",
+        "timestamp": "2026-10-09T08:05:41.952Z",
+        "duration_minutes": 12
+      }
+    ],
+    "skill_gaps": [
+      {
+        "skill_id": "embedded-c",
+        "skill_name": "Embedded C / C++",
+        "category": "Embedded Systems",
+        "current_level": 1,
+        "self_rating": 1,
+        "verified_rating": 0,
+        "target_level": 5,
+        "gap_size": 4,
+        "priority": "Critical",
+        "status": "Needs Improvement",
+        "importance_rationale": "The definitive standard language for resource-constrained hardware firmware.",
+        "prerequisite_skills": [],
+        "is_prerequisite_ready": true
+      },
+      {
+        "skill_id": "microcontrollers",
+        "skill_name": "Microcontrollers & Architecture",
+        "category": "Hardware",
+        "current_level": 1,
+        "self_rating": 1,
+        "verified_rating": 0,
+        "target_level": 4,
+        "gap_size": 3,
+        "priority": "Critical",
+        "status": "Needs Improvement",
+        "importance_rationale": "Direct interaction with registers, memory maps, clock configuration, and interrupts.",
+        "prerequisite_skills": [],
+        "is_prerequisite_ready": true
+      },
+      {
+        "skill_id": "protocols",
+        "skill_name": "Serial Communication Protocols",
+        "category": "Hardware Protocols",
+        "current_level": 1,
+        "self_rating": 1,
+        "verified_rating": 0,
+        "target_level": 4,
+        "gap_size": 3,
+        "priority": "Critical",
+        "status": "Needs Improvement",
+        "importance_rationale": "Required to interface sensors, external flash, display drivers, and peripheral ICs.",
+        "prerequisite_skills": [],
+        "is_prerequisite_ready": true
+      },
+      {
+        "skill_id": "rtos",
+        "skill_name": "Real-Time Operating Systems (RTOS)",
+        "category": "Systems",
+        "current_level": 1,
+        "self_rating": 1,
+        "verified_rating": 0,
+        "target_level": 3,
+        "gap_size": 2,
+        "priority": "Important",
+        "status": "Needs Improvement",
+        "importance_rationale": "Guarantees deterministic execution and deterministic deadline scheduling for multi-threaded firmware.",
+        "prerequisite_skills": [],
+        "is_prerequisite_ready": true
+      }
+    ],
+    "weekly_activity": [
+      {
+        "day": "Sun",
+        "date": "2026-10-04",
+        "minutes": 0,
+        "tasks_completed": 0
+      },
+      {
+        "day": "Mon",
+        "date": "2026-10-05",
+        "minutes": 0,
+        "tasks_completed": 0
+      },
+      {
+        "day": "Tue",
+        "date": "2026-10-06",
+        "minutes": 15,
+        "tasks_completed": 0
+      },
+      {
+        "day": "Wed",
+        "date": "2026-10-07",
+        "minutes": 25,
+        "tasks_completed": 0
+      },
+      {
+        "day": "Thu",
+        "date": "2026-10-08",
+        "minutes": 45,
+        "tasks_completed": 1
+      },
+      {
+        "day": "Fri",
+        "date": "2026-10-09",
+        "minutes": 12,
+        "tasks_completed": 1
+      },
+      {
+        "day": "Sat",
+        "date": "2026-10-10",
+        "minutes": 115,
+        "tasks_completed": 2
+      }
+    ],
+    "recent_quizzes": [
+      {
+        "id": "demo-quiz-1",
+        "user_id": "demo-student-1",
+        "topic_id": "python-basics",
+        "skill_id": "python",
+        "difficulty": "Medium",
+        "score": 3,
+        "total_questions": 3,
+        "score_percent": 100,
+        "duration_seconds": 142,
+        "answers": [
+          {
+            "question_id": "qq-py-bas-1",
+            "selected_option_index": 1,
+            "correct_option_index": 1,
+            "is_correct": true
+          },
+          {
+            "question_id": "qq-py-bas-2",
+            "selected_option_index": 1,
+            "correct_option_index": 1,
+            "is_correct": true
+          },
+          {
+            "question_id": "qq-py-bas-3",
+            "selected_option_index": 2,
+            "correct_option_index": 2,
+            "is_correct": true
+          }
+        ],
+        "created_at": "2026-10-09T08:05:41.941Z",
+        "topic_title": "Python Core Syntax & Data Structures"
+      }
+    ]
+  },
+  "exportedAt": "2026-10-10T08:28:06.542Z"
+}
